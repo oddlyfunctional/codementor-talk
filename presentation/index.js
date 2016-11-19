@@ -90,21 +90,9 @@ export default class Presentation extends React.Component {
           </Slide>
 
           <Slide transition={["slide"]} bgColor="black">
-            <Layout>
-              <Fill>
-                <Link href="https://twitter.com/oddlyfunctional" textColor="primary">@oddlyfunctional</Link>
-              </Fill>
-
-              <Fill>
-                <Heading size={2} caps textColor="primary" textFont="primary">
-                  Eu
-                </Heading>
-              </Fill>
-
-              <Fill>
-                <Link href="mailto:hi@oddlyfunctional.com" textColor="primary">hi@oddlyfunctional.com</Link>
-              </Fill>
-            </Layout>
+            <Heading size={2} caps textColor="primary" textFont="primary">
+              Eu
+            </Heading>
 
             <Layout textSize="1px">
               <Fill>
@@ -122,7 +110,7 @@ export default class Presentation extends React.Component {
               </Fill>
 
               <Fill style={ { padding: "80px" } }>
-                <Image src={images.me.replace("/", "")} margin="0px auto 40px" height="293px" style={ { borderRadius: "50%" } }/>
+                <Image src={images.me.replace("/", "")} height="293px" style={ { borderRadius: "50%" } }/>
               </Fill>
 
               <Fill>
@@ -135,10 +123,18 @@ export default class Presentation extends React.Component {
                 </Text></Appear>
               </Fill>
             </Layout>
+
+            <Heading fit textColor="primary">
+              Marcos a.k.a. Oddly Functional
+            </Heading>
           </Slide>
 
           <Slide transition={["slide"]} bgColor="black">
-            <Heading fit>
+            <Heading fit textColor="primary">
+              @oddlyfunctional
+            </Heading>
+
+            <Heading fit textColor="white">
               #RioDevDayCodementor
             </Heading>
           </Slide>
@@ -240,7 +236,7 @@ export default class Presentation extends React.Component {
             </Heading>
           </Slide>
 
-          <Slide transition={["slide"]} bgColor="black" notes="Falar menos de mentoria vs ensino formal">
+          <Slide transition={["slide"]} bgColor="black" notes="Ser *breve* sobre mentoria vs ensino formal">
             <List textColor="primary">
               <Appear><ListItem>Há uma tendência mundial de de-centralização</ListItem></Appear>
               <Appear><ListItem>E-learning está crescendo</ListItem></Appear>
