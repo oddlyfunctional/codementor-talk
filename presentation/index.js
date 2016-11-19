@@ -462,7 +462,7 @@ export default class Presentation extends React.Component {
             </Heading>
 
             <Heading size={4} fit textColor="black">
-              <Link href="http://www.oddlyfunctional.com">http://www.oddlyfunctional.com</Link>
+              <Link href="http://www.oddlyfunctional.com/codementor-talk">http://www.oddlyfunctional.com/codementor-talk</Link>
             </Heading>
 
             <Heading size={4} fit textColor="black">
