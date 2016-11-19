@@ -168,6 +168,25 @@ export default class Presentation extends React.Component {
             </BlockQuote>
           </Slide>
 
+          <Slide transition={["fade"]} bgColor="black">
+            <BlockQuote>
+              <Quote>
+                <Text textColor="primary">
+                  [...] I have been mentored for about 5 months now, and [...] with the knowledge I have obtained in such short amount of time, I have obtained financial security, job opportunities, and quality time with my family.
+                </Text>
+
+                <Text textColor="primary" margin="20px 0 0 0">
+                  I am accelerating my learning, and most importantly, <span style={ { color: "white" } }>in the right way</span>.
+                </Text>
+
+                <Text textColor="primary" margin="20px 0 0 0">
+                  I will continue to invest in my education as long as I can.
+                </Text>
+              </Quote>
+              <Cite>Dany Han, mentee</Cite>
+            </BlockQuote>
+          </Slide>
+
           <Slide transition={["slide", "spin"]} bgColor="primary">
             <Heading caps textColor="black">
               Por que ser um
@@ -185,6 +204,7 @@ export default class Presentation extends React.Component {
                 <li>quem trabalha atualmente</li>
                 <li>quem tem ideia de seu valor/hora</li>
                 <li>quantos acham que um salário de R$30/h, R$5040/mês bom</li>
+                <li>Ganho atualmente $64/h, R$200/h</li>
               </ul>
             </li>
             <li>Sobre validação, perguntar quem sente que sabe o suficiente</li>
@@ -194,7 +214,7 @@ export default class Presentation extends React.Component {
               <Appear><ListItem>Aproveitar enquanto espera</ListItem></Appear>
               <Appear><ListItem>Ganhar acima da média nacional</ListItem></Appear>
               <Appear><ListItem>Treinar inglês</ListItem></Appear>
-              <Appear><ListItem>Treinar negociação</ListItem></Appear>
+              <Appear><ListItem>Exercitar habilidades de negociação</ListItem></Appear>
               <Appear><ListItem>Contato com diversas áreas e tech stacks</ListItem></Appear>
               <Appear><ListItem>Acompanhar tendências da indústria</ListItem></Appear>
               <Appear><ListItem>Realização pessoal e validação</ListItem></Appear>
@@ -334,7 +354,7 @@ export default class Presentation extends React.Component {
               <Appear><ListItem>Arrume um contador</ListItem></Appear>
               <Appear><ListItem>Crie uma conta PayPal vinculada à sua conta de banco</ListItem></Appear>
               <Appear><ListItem>Faça a application para o Codementor</ListItem></Appear>
-              <Appear><ListItem>Não largue o emprego ainda!</ListItem></Appear>
+              <Appear><ListItem><b>Não largue o emprego ainda!</b></ListItem></Appear>
             </List>
           </Slide>
 
@@ -389,7 +409,7 @@ export default class Presentation extends React.Component {
             </List>
           </Slide>
 
-          <Slide transition={["slide", "spin"]} bgColor="primary">
+          <Slide transition={["slide", "spin"]} bgColor="primary" notes="Trampolim">
             <Heading caps fit textColor="black">
               Além do
             </Heading>
