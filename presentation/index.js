@@ -227,24 +227,24 @@ export default class Presentation extends React.Component {
           </Slide>
 
           <Slide transition={["slide"]} bgColor="black">
-            <Image width="50%" src={images.crying1} />
+            <Image width="50%" src={images.crying1.replace("/", "")} />
           </Slide>
 
           <Slide transition={["slide"]} bgColor="black">
-            <Image width="50%" src={images.crying2} />
+            <Image width="50%" src={images.crying2.replace("/", "")} />
           </Slide>
 
           <Slide transition={["slide"]} bgColor="black">
-            <Image width="50%" src={images.crying3} />
+            <Image width="50%" src={images.crying3.replace("/", "")} />
           </Slide>
 
           <Slide transition={["slide"]} bgColor="black" notes="Dependendo da reação da platéia, não explique nada, senão seja curto e breve">
-            <Image width="50%" src={images.cryingMoney} />
+            <Image width="50%" src={images.cryingMoney.replace("/", "")} />
           </Slide>
 
           <Slide transition={["fade"]} bgColor="black" notes="Hierarquia de necessidades de Maslow, 10º psicólogo mais citado do século XX, 'enfatizava a importância de focar nas qualidades positivas das pessoas ao invés de tratá-las como sacos de sintomas'">
             <Heading caps fit>Nunca subestime o poder da sensação de segurança</Heading>
-            <Image width="100%" src={images.needs} />
+            <Image width="100%" src={images.needs.replace("/", "")} />
           </Slide>
 
           <Slide transition={["slide", "spin"]} bgColor="primary">
@@ -267,11 +267,11 @@ export default class Presentation extends React.Component {
           </Slide>
 
           <Slide transition={["zoom", "fade"]} bgColor="black">
-            <Image width="50%" src={images.giveItToMe} />
+            <Image width="50%" src={images.giveItToMe.replace("/", "")} />
           </Slide>
 
           <Slide transition={["slide", "spin"]} bgColor="white">
-            <Image src={images.codementorLogo} />
+            <Image src={images.codementorLogo.replace("/", "")} />
           </Slide>
 
           <Slide transition={["slide"]} bgColor="black">
@@ -299,42 +299,42 @@ export default class Presentation extends React.Component {
             <Heading fit>
               Tesoura sem ponta
             </Heading>
-            <Image src={images.tesoura} />
+            <Image src={images.tesoura.replace("/", "")} />
           </Slide>
 
           <Slide transition={["slide"]} bgColor="black" notes="Seja BREVE">
             <Heading fit>
               Especialidades
             </Heading>
-            <Image src={images.skills} />
+            <Image src={images.skills.replace("/", "")} />
           </Slide>
 
           <Slide transition={["slide"]} bgColor="black">
             <Heading fit>
               Boa conexão com a internet
             </Heading>
-            <Image src={images.internet} />
+            <Image src={images.internet.replace("/", "")} />
           </Slide>
 
           <Slide transition={["slide"]} bgColor="black">
             <Heading fit>
               Inglês fluente
             </Heading>
-            <Image src={images.english} />
+            <Image src={images.english.replace("/", "")} />
           </Slide>
 
           <Slide transition={["slide"]} bgColor="black" notes="Inglês é interface de comunicação">
             <Heading fit>
               Entender sotaques
             </Heading>
-            <Image src={images.accent} />
+            <Image src={images.accent.replace("/", "")} />
           </Slide>
 
           <Slide transition={["slide"]} bgColor="black">
             <Heading fit>
               Bom equipamento de som
             </Heading>
-            <Image src={images.equipment} />
+            <Image src={images.equipment.replace("/", "")} />
           </Slide>
 
           <Slide transition={["slide", "spin"]} bgColor="primary">
@@ -436,7 +436,7 @@ export default class Presentation extends React.Component {
           </Slide>
 
           <Slide transition={["slide"]} bgColor="black">
-            <Image width="100%" src={images.digitalNomad} />
+            <Image width="100%" src={images.digitalNomad.replace("/", "")} />
           </Slide>
 
           <Slide transition={["slide", "spin"]} bgColor="primary">
@@ -474,7 +474,7 @@ export default class Presentation extends React.Component {
 
           <Slide transition={["zoom", "fade"]} bgColor="primary">
             <Heading size={4} fit textColor="black">
-              <Link href="https://twitter.com/oddlyfunctional"><Image src={images.twitter} width="1em" margin="0" /> @oddlyfunctional</Link>
+              <Link href="https://twitter.com/oddlyfunctional"><Image src={images.twitter.replace("/", "")} width="1em" margin="0" /> @oddlyfunctional</Link>
             </Heading>
 
             <Heading size={4} fit textColor="black">
@@ -485,7 +485,7 @@ export default class Presentation extends React.Component {
               <Link href="https://www.codementor.io/mrodrigues">https://www.codementor.io/mrodrigues</Link>
             </Heading>
 
-            <Heading size={4} fit textColor="white" lineHeight={"40px"}>
+            <Heading size={4} fit textColor="white">
               <Link href="https://www.codementor.io/i/k253lmkh6">https://www.codementor.io/i/k253lmkh6</Link>
             </Heading>
           </Slide>
